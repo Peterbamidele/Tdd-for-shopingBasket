@@ -16,7 +16,7 @@ public class ShoppinBasket {
 //    }
 
     public double getTotal() {
-        return items.stream().mapToDouble(item -> item.getSubTotal()).sum();
+        return items.stream().mapToDouble(item -> item.getSubTotal()).sum(); //this is sum()
 //        return items.stream().mapToDouble(item -> item.getSubTotal())item.getunitPrice()*item.getQuantity()).sum();
     }
 
